@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LexAdvocacia | Escritório de Advocacia e Consultoria Jurídica</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome para Ícones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Header / Navegação -->
+    <header id="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <i class="fas fa-balance-scale"></i> Lex<span>Advocacia</span>
+            </a>
+            <nav>
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#sobre">O Escritório</a></li>
+                    <li><a href="#areas">Áreas de Atuação</a></li>
+                    <li><a href="#diferenciais">Diferenciais</a></li>
+                    <li><a href="#faq">Dúvidas</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+                <div class="menu-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+            <a href="#contato" class="btn-header">Agendar Consulta</a>
+        </div>
+    </header>
+
+    <!-- Seção Hero -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <span class="badge"><i class="fas fa-shield-alt"></i> Excelência e Defesa Rigorosa dos Seus Direitos</span>
+            <h1>Soluções jurídicas estratégicas para você e sua empresa</h1>
+            <p>Atuação especializada em direito civil, empresarial, trabalhista e de família, com foco em resultados ágeis e seguros.</p>
+            <div class="hero-buttons">
+                <button class="btn btn-primary" onclick="openModal()">Falar com um Advogado</button>
+                <a href="#areas" class="btn btn-outline">Conhecer Áreas</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Sobre o Escritório -->
+    <section id="sobre" class="section container">
+        <div class="about-grid">
+            <div class="about-text">
+                <span class="section-tag">TRADIÇÃO E MODERNIDADE</span>
+                <h2>Comprometidos com a justiça e a defesa intransigente dos interesses dos nossos clientes.</h2>
+                <p>O escritório LexAdvocacia nasceu com o propósito de oferecer assessoria jurídica personalizada, unindo profundo conhecimento técnico, estratégia e atendimento humanizado. Contamos com uma equipe multidisciplinar pronta para atuar preventivamente e no contencioso.</p>
+                <div class="about-stats">
+                    <div class="stat-box">
+                        <h3>+15</h3>
+                        <p>Anos de Experiência</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>98%</h3>
+                        <p>Casos Estratégicos com Êxito</p>
+                    </div>
+                    <div class="stat-box">
+                        <h3>+1200</h3>
+                        <p>Clientes Assessorados</p>
+                    </div>
+                </div>
+            </div>
+            <div class="about-img">
+                <img src="https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=800&q=80" alt="Escritório de Advocacia">
+            </div>
+        </div>
+    </section>
+
+    <!-- Áreas de Atuação -->
+    <section id="areas" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">ESPECIALIDADES</span>
+                <h2>Áreas de Atuação</h2>
+                <p>Oferecemos suporte jurídico completo em diversas vertentes do direito.</p>
+            </div>
+            <div class="areas-grid">
+                <div class="area-card">
+                    <i class="fas fa-gavel"></i>
+                    <h3>Direito Civil</h3>
+                    <p>Contratos, responsabilidade civil, indenizações, cobranças e resolução de conflitos patrimoniais.</p>
+                </div>
+                <div class="area-card">
+                    <i class="fas fa-briefcase"></i>
+                    <h3>Direito Empresarial</h3>
+                    <p>Consultoria preventiva para empresas, societário, recuperação de créditos e contratos comerciais.</p>
+                </div>
+                <div class="area-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Direito de Família e Sucessões</h3>
+                    <p>Divórcios, inventários, partilhas de bens, guarda, pensão alimentícia e planejamento sucessório.</p>
+                </div>
+                <div class="area-card">
+                    <i class="fas fa-user-tie"></i>
+                    <h3>Direito Trabalhista</h3>
+                    <p>Defesa especializada para empregados e empresas, auditoria preventiva e conformidade com a CLT.</p>
+                </div>
+                <div class="area-card">
+                    <i class="fas fa-home"></i>
+                    <h3>Direito Imobiliário</h3>
+                    <p>Regularização de imóveis, usucapião, compra e venda segura, locações e direito condominial.</p>
+                </div>
+                <div class="area-card">
+                    <i class="fas fa-file-contract"></i>
+                    <h3>Direito do Consumidor</h3>
+                    <p>Proteção contra abusos de empresas, negativação indevida, problemas com voos e compras online.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Diferenciais -->
+    <section id="diferenciais" class="section container">
+        <div class="section-header">
+            <span class="section-tag">POR QUE NOS ESCOLHER</span>
+            <h2>Nossos Diferenciais</h2>
+        </div>
+        <div class="diff-grid">
+            <div class="diff-item">
+                <i class="fas fa-handshake"></i>
+                <h3>Atendimento Humanizado</h3>
+                <p>Compreendemos a dor e a necessidade de cada cliente, oferecendo acolhimento e clareza em todas as etapas.</p>
+            </div>
+            <div class="diff-item">
+                <i class="fas fa-bolt"></i>
+                <h3>Agilidade e Tecnologia</h3>
+                <p>Processos digitalizados e acompanhamento em tempo real do andamento do seu caso por meio de canais diretos.</p>
+            </div>
+            <div class="diff-item">
+                <i class="fas fa-chart-line"></i>
+                <h3>Visão Estratégica</h3>
+                <p>Foco na prevenção de riscos e na busca por soluções consensuais e céleres antes de recorrer à via judicial.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ / Dúvidas Frequentes -->
+    <section id="faq" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">TIRE SUAS DÚVIDAS</span>
+                <h2>Perguntas Frequentes</h2>
+            </div>
+            <div class="faq-container">
+                <div class="faq-item">
+                    <div class="faq-question">Como funciona a primeira consulta? <span>+</span></div>
+                    <div class="faq-answer">A primeira consulta pode ser realizada de forma presencial ou online. Nela, analisaremos os documentos e a viabilidade jurídica do seu caso, traçando a melhor estratégia.</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">Quais documentos devo levar para o atendimento? <span>+</span></div>
+                    <div class="faq-answer">Recomendamos trazer documentos de identificação (RG e CPF), comprovante de residência e todos os documentos relacionados ao caso (contratos, mensagens, notificações, etc.).</div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">O escritório atende clientes de outras cidades ou estados? <span>+</span></div>
+                    <div class="faq-answer">Sim! Graças ao processo eletrônico e às nossas ferramentas de atendimento digital, conseguimos prestar assessoria jurídica em todo o território nacional.</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato e Localização -->
+    <section id="contato" class="section container">
+        <div class="contact-grid">
+            <div class="contact-info">
+                <span class="section-tag">FALE CONOSCO</span>
+                <h2>Estamos prontos para defender os seus interesses</h2>
+                <p>Entre em contato conosco por telefone, e-mail ou visite nosso escritório. Responderemos o mais breve possível.</p>
+                
+                <ul class="contact-list">
+                    <li><i class="fas fa-map-marker-alt"></i> Av. Paulista, 1000 - Conj. 52 - Bela Vista, São Paulo - SP</li>
+                    <li><i class="fas fa-phone-alt"></i> (11) 3456-7890 / (11) 98888-7777</li>
+                    <li><i class="fas fa-envelope"></i> contato@lexadvocacia.com.br</li>
+                    <li><i class="fas fa-clock"></i> Segunda a Sexta: das 09h às 18h</li>
+                </ul>
+            </div>
+            
+            <div class="contact-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1973686859844!2d-46.6565736237699!3d-23.561384861582236!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f4375b2c94d0a!2sAv.%20Paulista%2C%20São%20Paulo%20-SP!5e0!3m2!1spt-BR!2sbr!4v1700000000000!5m2!1spt-BR!2sbr" width="100%" height="320" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modal de Agendamento -->
+    <div id="consultaModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal" onclick="closeModal()">&times;</span>
+            <h2>Agende sua Consulta</h2>
+            <p>Preencha os dados abaixo e entraremos em contato rapidamente.</p>
+            <form id="modalForm">
+                <div class="form-group">
+                    <label>Nome Completo</label>
+                    <input type="text" required placeholder="Seu nome">
+                </div>
+                <div class="form-group">
+                    <label>Telefone / WhatsApp</label>
+                    <input type="text" required placeholder="(11) 90000-0000">
+                </div>
+                <div class="form-group">
+                    <label>Área de Interesse</label>
+                    <select>
+                        <option>Direito Civil</option>
+                        <option>Direito Empresarial</option>
+                        <option>Direito de Família</option>
+                        <option>Direito Trabalhista</option>
+                        <option>Outros</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary btn-block">Solicitar Atendimento</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Botão Flutuante do WhatsApp -->
+    <a href="https://wa.me/5511988887777?text=Olá,%20gostaria%20de%20tirar%20uma%20dúvida%20jurídica." class="whatsapp-float" target="_blank" title="Fale conosco no WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <p>&copy; 2026 LexAdvocacia. Todos os direitos reservados. OAB/SP 00.000</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
